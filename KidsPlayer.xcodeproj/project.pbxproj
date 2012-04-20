@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		501F52AC12E65545003A48C4 /* SPLURGEB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 501F52AB12E65545003A48C4 /* SPLURGEB.TTF */; };
+		501F52B012E6579F003A48C4 /* CGStringDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 501F52AF12E6579F003A48C4 /* CGStringDrawing.m */; };
+		501F52B712E65A54003A48C4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501F52B612E65A54003A48C4 /* CoreText.framework */; };
+		502E0DD610B716A70098CE54 /* CoverViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 502E0DD510B716A70098CE54 /* CoverViewLayer.m */; };
+		502E0DD910B716AF0098CE54 /* CoverItemLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 502E0DD810B716AF0098CE54 /* CoverItemLayer.m */; };
+		502E0DE310B717890098CE54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502E0DE210B717890098CE54 /* QuartzCore.framework */; };
+		502E0FBE10BB417E0098CE54 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 502E0FBD10BB417E0098CE54 /* shadow.png */; };
+		503E65AB12E8F51B00917002 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 503E65A912E8F51B00917002 /* InfoPlist.strings */; };
+		5045B13012EC3C84004E01DF /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 5045B12F12EC3C84004E01DF /* iTunesArtwork */; };
+		5045B13212EC3C8C004E01DF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B13112EC3C8C004E01DF /* Icon@2x.png */; };
+		5045B13412EC3C94004E01DF /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B13312EC3C94004E01DF /* Icon-72.png */; };
+		5045B13712EC3C9F004E01DF /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B13512EC3C9F004E01DF /* Icon-Small.png */; };
+		5045B13A12EC3D12004E01DF /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B13912EC3D12004E01DF /* Icon-Small@2x.png */; };
+		5045B13F12EC3D30004E01DF /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B13E12EC3D30004E01DF /* back@2x.png */; };
+		5045B14612EC3D41004E01DF /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B14012EC3D41004E01DF /* forward@2x.png */; };
+		5045B14712EC3D41004E01DF /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B14112EC3D41004E01DF /* info@2x.png */; };
+		5045B14812EC3D41004E01DF /* missingcover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B14212EC3D41004E01DF /* missingcover@2x.png */; };
+		5045B14912EC3D41004E01DF /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B14312EC3D41004E01DF /* pause@2x.png */; };
+		5045B14A12EC3D41004E01DF /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B14412EC3D41004E01DF /* play@2x.png */; };
+		5045B14B12EC3D41004E01DF /* shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B14512EC3D41004E01DF /* shadow@2x.png */; };
+		5045B14D12EC3D71004E01DF /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5045B14C12EC3D71004E01DF /* Icon-Small-50.png */; };
+		505B122B12E899C400DBAA28 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B122A12E899C400DBAA28 /* AVFoundation.framework */; };
+		505B123112E89FFF00DBAA28 /* background_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 505B123012E89FFF00DBAA28 /* background_active@2x.png */; };
+		505B123312E8A00300DBAA28 /* background_inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 505B123212E8A00300DBAA28 /* background_inactive@2x.png */; };
+		505B123712E8A05300DBAA28 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 505B123612E8A05300DBAA28 /* Default@2x.png */; };
+		50A5D0E510B6D06900C604A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A5D0E310B6D06900C604A4 /* main.m */; };
+		50A5D0EA10B6D07500C604A4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0E810B6D07500C604A4 /* MainWindow.xib */; };
+		50A5D0FA10B6D08200C604A4 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0EC10B6D08200C604A4 /* back.png */; };
+		50A5D0FC10B6D08200C604A4 /* background_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0EE10B6D08200C604A4 /* background_active.png */; };
+		50A5D0FD10B6D08200C604A4 /* background_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0EF10B6D08200C604A4 /* background_inactive.png */; };
+		50A5D0FE10B6D08200C604A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0F010B6D08200C604A4 /* Default.png */; };
+		50A5D0FF10B6D08200C604A4 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0F110B6D08200C604A4 /* forward.png */; };
+		50A5D10210B6D08200C604A4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0F410B6D08200C604A4 /* Icon.png */; };
+		50A5D10310B6D08200C604A4 /* missingcover.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0F510B6D08200C604A4 /* missingcover.png */; };
+		50A5D10510B6D08200C604A4 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0F710B6D08200C604A4 /* pause.png */; };
+		50A5D10710B6D08200C604A4 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D0F910B6D08200C604A4 /* play.png */; };
+		50A5D14D10B6D3D000C604A4 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A5D14C10B6D3D000C604A4 /* PlayViewController.xib */; };
+		50A5D16C10B6D60900C604A4 /* KidsPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A5D16610B6D60900C604A4 /* KidsPlayerAppDelegate.m */; };
+		50A5D16D10B6D60900C604A4 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A5D16810B6D60900C604A4 /* PlayViewController.m */; };
+		50A5D16E10B6D60900C604A4 /* CoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A5D16B10B6D60900C604A4 /* CoverView.m */; };
+		50A5D17110B6D63C00C604A4 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A5D17010B6D63C00C604A4 /* BackgroundView.m */; };
+		50A5D17610B6D77700C604A4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A5D17510B6D77700C604A4 /* MediaPlayer.framework */; };
+		50AA1E0A10BB6BFE00CC177F /* PlaylistSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA1E0910BB6BFE00CC177F /* PlaylistSelection.m */; };
+		50AA1E1410BB6ECB00CC177F /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AA1E1310BB6ECB00CC177F /* info.png */; };
+		50AA1E2610BB715000CC177F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50AA1E2410BB715000CC177F /* Localizable.strings */; };
+		50EFA88F11305DDA00F5B437 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50EFA88E11305DDA00F5B437 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23C672266B803D7A90AEA934 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		501F52AB12E65545003A48C4 /* SPLURGEB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SPLURGEB.TTF; sourceTree = "<group>"; };
+		501F52AE12E6579F003A48C4 /* CGStringDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGStringDrawing.h; sourceTree = "<group>"; };
+		501F52AF12E6579F003A48C4 /* CGStringDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGStringDrawing.m; sourceTree = "<group>"; };
+		501F52B612E65A54003A48C4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		502E0DD410B716A70098CE54 /* CoverViewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverViewLayer.h; sourceTree = "<group>"; };
+		502E0DD510B716A70098CE54 /* CoverViewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverViewLayer.m; sourceTree = "<group>"; };
+		502E0DD710B716AF0098CE54 /* CoverItemLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverItemLayer.h; sourceTree = "<group>"; };
+		502E0DD810B716AF0098CE54 /* CoverItemLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverItemLayer.m; sourceTree = "<group>"; };
+		502E0DE210B717890098CE54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		502E0FBD10BB417E0098CE54 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		503C7B231541445A001F915D /* KidsPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503E65AA12E8F51B00917002 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5045B12F12EC3C84004E01DF /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		5045B13112EC3C8C004E01DF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		5045B13312EC3C94004E01DF /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		5045B13512EC3C9F004E01DF /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		5045B13912EC3D12004E01DF /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		5045B13E12EC3D30004E01DF /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		5045B14012EC3D41004E01DF /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		5045B14112EC3D41004E01DF /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		5045B14212EC3D41004E01DF /* missingcover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "missingcover@2x.png"; sourceTree = "<group>"; };
+		5045B14312EC3D41004E01DF /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		5045B14412EC3D41004E01DF /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		5045B14512EC3D41004E01DF /* shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow@2x.png"; sourceTree = "<group>"; };
+		5045B14C12EC3D71004E01DF /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		505B122A12E899C400DBAA28 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		505B123012E89FFF00DBAA28 /* background_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_active@2x.png"; sourceTree = "<group>"; };
+		505B123212E8A00300DBAA28 /* background_inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_inactive@2x.png"; sourceTree = "<group>"; };
+		505B123612E8A05300DBAA28 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		50A5D0E210B6D06900C604A4 /* KidsPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KidsPlayer_Prefix.pch; sourceTree = "<group>"; };
+		50A5D0E310B6D06900C604A4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50A5D0E710B6D07500C604A4 /* KidsPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KidsPlayer-Info.plist"; sourceTree = "<group>"; };
+		50A5D0E810B6D07500C604A4 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		50A5D0EC10B6D08200C604A4 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		50A5D0EE10B6D08200C604A4 /* background_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_active.png; sourceTree = "<group>"; };
+		50A5D0EF10B6D08200C604A4 /* background_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_inactive.png; sourceTree = "<group>"; };
+		50A5D0F010B6D08200C604A4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		50A5D0F110B6D08200C604A4 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		50A5D0F410B6D08200C604A4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		50A5D0F510B6D08200C604A4 /* missingcover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missingcover.png; sourceTree = "<group>"; };
+		50A5D0F710B6D08200C604A4 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		50A5D0F910B6D08200C604A4 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		50A5D14C10B6D3D000C604A4 /* PlayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
+		50A5D16510B6D60900C604A4 /* KidsPlayerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KidsPlayerAppDelegate.h; sourceTree = "<group>"; };
+		50A5D16610B6D60900C604A4 /* KidsPlayerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KidsPlayerAppDelegate.m; sourceTree = "<group>"; };
+		50A5D16710B6D60900C604A4 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		50A5D16810B6D60900C604A4 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		50A5D16A10B6D60900C604A4 /* CoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverView.h; sourceTree = "<group>"; };
+		50A5D16B10B6D60900C604A4 /* CoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverView.m; sourceTree = "<group>"; };
+		50A5D16F10B6D63C00C604A4 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		50A5D17010B6D63C00C604A4 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		50A5D17510B6D77700C604A4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		50AA1E0810BB6BFE00CC177F /* PlaylistSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistSelection.h; sourceTree = "<group>"; };
+		50AA1E0910BB6BFE00CC177F /* PlaylistSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistSelection.m; sourceTree = "<group>"; };
+		50AA1E1310BB6ECB00CC177F /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		50AA1E2510BB715000CC177F /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		50EFA88E11305DDA00F5B437 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F51183BCC8CF530A7FFBF9DD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505B122B12E899C400DBAA28 /* AVFoundation.framework in Frameworks */,
+				501F52B712E65A54003A48C4 /* CoreText.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				50A5D17610B6D77700C604A4 /* MediaPlayer.framework in Frameworks */,
+				502E0DE310B717890098CE54 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				50A5D0DD10B6D06900C604A4 /* Source */,
+				50A5D0E610B6D07500C604A4 /* Resources */,
+				505B123512E8A03C00DBAA28 /* Icons */,
+				50A5D0EB10B6D08200C604A4 /* Images */,
+				505B123412E8A02900DBAA28 /* Images - 2x */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				503C7B241541445A001F915D /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				50A5D17510B6D77700C604A4 /* MediaPlayer.framework */,
+				502E0DE210B717890098CE54 /* QuartzCore.framework */,
+				501F52B612E65A54003A48C4 /* CoreText.framework */,
+				505B122A12E899C400DBAA28 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		501F52AD12E65785003A48C4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				501F52AE12E6579F003A48C4 /* CGStringDrawing.h */,
+				501F52AF12E6579F003A48C4 /* CGStringDrawing.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		502E0DD310B716970098CE54 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				502E0DD410B716A70098CE54 /* CoverViewLayer.h */,
+				502E0DD510B716A70098CE54 /* CoverViewLayer.m */,
+				502E0DD710B716AF0098CE54 /* CoverItemLayer.h */,
+				502E0DD810B716AF0098CE54 /* CoverItemLayer.m */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		503C7B241541445A001F915D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503C7B231541445A001F915D /* KidsPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505B123412E8A02900DBAA28 /* Images - 2x */ = {
+			isa = PBXGroup;
+			children = (
+				5045B13E12EC3D30004E01DF /* back@2x.png */,
+				505B123012E89FFF00DBAA28 /* background_active@2x.png */,
+				505B123212E8A00300DBAA28 /* background_inactive@2x.png */,
+				505B123612E8A05300DBAA28 /* Default@2x.png */,
+				5045B14012EC3D41004E01DF /* forward@2x.png */,
+				5045B14112EC3D41004E01DF /* info@2x.png */,
+				5045B14212EC3D41004E01DF /* missingcover@2x.png */,
+				5045B14312EC3D41004E01DF /* pause@2x.png */,
+				5045B14412EC3D41004E01DF /* play@2x.png */,
+				5045B14512EC3D41004E01DF /* shadow@2x.png */,
+			);
+			name = "Images - 2x";
+			path = Images;
+			sourceTree = "<group>";
+		};
+		505B123512E8A03C00DBAA28 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				5045B12F12EC3C84004E01DF /* iTunesArtwork */,
+				50A5D0F410B6D08200C604A4 /* Icon.png */,
+				5045B13112EC3C8C004E01DF /* Icon@2x.png */,
+				5045B13312EC3C94004E01DF /* Icon-72.png */,
+				5045B13512EC3C9F004E01DF /* Icon-Small.png */,
+				5045B13912EC3D12004E01DF /* Icon-Small@2x.png */,
+				5045B14C12EC3D71004E01DF /* Icon-Small-50.png */,
+			);
+			name = Icons;
+			path = Images;
+			sourceTree = "<group>";
+		};
+		50A5D0DD10B6D06900C604A4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				50A5D0DE10B6D06900C604A4 /* Classes */,
+				50A5D0E110B6D06900C604A4 /* Other */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		50A5D0DE10B6D06900C604A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50A5D16410B6D60900C604A4 /* Controller */,
+				50A5D16910B6D60900C604A4 /* Views */,
+				502E0DD310B716970098CE54 /* Layer */,
+				501F52AD12E65785003A48C4 /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		50A5D0E110B6D06900C604A4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				50A5D0E210B6D06900C604A4 /* KidsPlayer_Prefix.pch */,
+				50A5D0E310B6D06900C604A4 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		50A5D0E610B6D07500C604A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50A5D0E710B6D07500C604A4 /* KidsPlayer-Info.plist */,
+				50A5D0E810B6D07500C604A4 /* MainWindow.xib */,
+				50A5D14C10B6D3D000C604A4 /* PlayViewController.xib */,
+				50AA1E2410BB715000CC177F /* Localizable.strings */,
+				503E65A912E8F51B00917002 /* InfoPlist.strings */,
+				50EFA88E11305DDA00F5B437 /* Settings.bundle */,
+				501F52AB12E65545003A48C4 /* SPLURGEB.TTF */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50A5D0EB10B6D08200C604A4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				50A5D0EC10B6D08200C604A4 /* back.png */,
+				50A5D0EE10B6D08200C604A4 /* background_active.png */,
+				50A5D0EF10B6D08200C604A4 /* background_inactive.png */,
+				50A5D0F010B6D08200C604A4 /* Default.png */,
+				50A5D0F110B6D08200C604A4 /* forward.png */,
+				50AA1E1310BB6ECB00CC177F /* info.png */,
+				50A5D0F510B6D08200C604A4 /* missingcover.png */,
+				50A5D0F710B6D08200C604A4 /* pause.png */,
+				50A5D0F910B6D08200C604A4 /* play.png */,
+				502E0FBD10BB417E0098CE54 /* shadow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		50A5D16410B6D60900C604A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50A5D16510B6D60900C604A4 /* KidsPlayerAppDelegate.h */,
+				50A5D16610B6D60900C604A4 /* KidsPlayerAppDelegate.m */,
+				50A5D16710B6D60900C604A4 /* PlayViewController.h */,
+				50A5D16810B6D60900C604A4 /* PlayViewController.m */,
+				50AA1E0810BB6BFE00CC177F /* PlaylistSelection.h */,
+				50AA1E0910BB6BFE00CC177F /* PlaylistSelection.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50A5D16910B6D60900C604A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50A5D16F10B6D63C00C604A4 /* BackgroundView.h */,
+				50A5D17010B6D63C00C604A4 /* BackgroundView.m */,
+				50A5D16A10B6D60900C604A4 /* CoverView.h */,
+				50A5D16B10B6D60900C604A4 /* CoverView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* KidsPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "KidsPlayer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidsPlayer;
+			productName = KidsPlayer;
+			productReference = 503C7B231541445A001F915D /* KidsPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KidsPlayer" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				de,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 503C7B241541445A001F915D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* KidsPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A5D0EA10B6D07500C604A4 /* MainWindow.xib in Resources */,
+				50A5D0FA10B6D08200C604A4 /* back.png in Resources */,
+				50A5D0FC10B6D08200C604A4 /* background_active.png in Resources */,
+				50A5D0FD10B6D08200C604A4 /* background_inactive.png in Resources */,
+				50A5D0FE10B6D08200C604A4 /* Default.png in Resources */,
+				50A5D0FF10B6D08200C604A4 /* forward.png in Resources */,
+				50A5D10210B6D08200C604A4 /* Icon.png in Resources */,
+				50A5D10310B6D08200C604A4 /* missingcover.png in Resources */,
+				50A5D10510B6D08200C604A4 /* pause.png in Resources */,
+				50A5D10710B6D08200C604A4 /* play.png in Resources */,
+				50A5D14D10B6D3D000C604A4 /* PlayViewController.xib in Resources */,
+				502E0FBE10BB417E0098CE54 /* shadow.png in Resources */,
+				50AA1E1410BB6ECB00CC177F /* info.png in Resources */,
+				50AA1E2610BB715000CC177F /* Localizable.strings in Resources */,
+				50EFA88F11305DDA00F5B437 /* Settings.bundle in Resources */,
+				501F52AC12E65545003A48C4 /* SPLURGEB.TTF in Resources */,
+				505B123112E89FFF00DBAA28 /* background_active@2x.png in Resources */,
+				505B123312E8A00300DBAA28 /* background_inactive@2x.png in Resources */,
+				505B123712E8A05300DBAA28 /* Default@2x.png in Resources */,
+				503E65AB12E8F51B00917002 /* InfoPlist.strings in Resources */,
+				5045B13012EC3C84004E01DF /* iTunesArtwork in Resources */,
+				5045B13212EC3C8C004E01DF /* Icon@2x.png in Resources */,
+				5045B13412EC3C94004E01DF /* Icon-72.png in Resources */,
+				5045B13712EC3C9F004E01DF /* Icon-Small.png in Resources */,
+				5045B13A12EC3D12004E01DF /* Icon-Small@2x.png in Resources */,
+				5045B13F12EC3D30004E01DF /* back@2x.png in Resources */,
+				5045B14612EC3D41004E01DF /* forward@2x.png in Resources */,
+				5045B14712EC3D41004E01DF /* info@2x.png in Resources */,
+				5045B14812EC3D41004E01DF /* missingcover@2x.png in Resources */,
+				5045B14912EC3D41004E01DF /* pause@2x.png in Resources */,
+				5045B14A12EC3D41004E01DF /* play@2x.png in Resources */,
+				5045B14B12EC3D41004E01DF /* shadow@2x.png in Resources */,
+				5045B14D12EC3D71004E01DF /* Icon-Small-50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A5D0E510B6D06900C604A4 /* main.m in Sources */,
+				50A5D16C10B6D60900C604A4 /* KidsPlayerAppDelegate.m in Sources */,
+				50A5D16D10B6D60900C604A4 /* PlayViewController.m in Sources */,
+				50A5D16E10B6D60900C604A4 /* CoverView.m in Sources */,
+				50A5D17110B6D63C00C604A4 /* BackgroundView.m in Sources */,
+				502E0DD610B716A70098CE54 /* CoverViewLayer.m in Sources */,
+				502E0DD910B716AF0098CE54 /* CoverItemLayer.m in Sources */,
+				50AA1E0A10BB6BFE00CC177F /* PlaylistSelection.m in Sources */,
+				501F52B012E6579F003A48C4 /* CGStringDrawing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		503E65A912E8F51B00917002 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503E65AA12E8F51B00917002 /* en */,
+				F51183BCC8CF530A7FFBF9DD /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50AA1E2410BB715000CC177F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AA1E2510BB715000CC177F /* en */,
+				23C672266B803D7A90AEA934 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_PREFIX_HEADER = Source/Other/KidsPlayer_Prefix.pch;
+				INFOPLIST_FILE = "Resources/KidsPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = KidsPlayer;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_PREFIX_HEADER = Source/Other/KidsPlayer_Prefix.pch;
+				INFOPLIST_FILE = "Resources/KidsPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = KidsPlayer;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "KidsPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KidsPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

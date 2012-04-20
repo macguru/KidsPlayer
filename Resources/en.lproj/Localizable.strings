@@ -1,0 +1,5 @@
+/* Playlist chooser title */
+"PlaylistTitle" = "Playlist Selection";
+
+/* Playlist chooser prompt */
+"PlaylistPrompt" = "Please select a playlist to show.";

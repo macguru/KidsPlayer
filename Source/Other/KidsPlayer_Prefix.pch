@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'KidsPlayer' target in the 'KidsPlayer' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <MediaPlayer/MediaPlayer.h>
+	#import <QuartzCore/QuartzCore.h>
+	#import <AVFoundation/AVFoundation.h>
+#endif
